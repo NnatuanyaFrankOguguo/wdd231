@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="profile-info">
+            <img src="./images/profile.jpeg" alt="Profile Photo" class="profile-photo">
+            <h1>Nnatuanya O Frank</h1>
+
+            <div class="hamburger" onclick="toggleMenu()">
+                ☰
+            </div>
+        </div>
+
+
+        <nav id="navLinks">
+            <a href="#">Home</a>
+            <a href="#">Chamber</a>
+            <a href="https://github.com/NnatuanyaFrankOguguo" target="_blank">GitHub Profile</a>
+            <a href="https://www.linkedin.com/in/frank-nnatuanya-7683461b7/" target="_blank">LinkedIn</a>
+        </nav>
+    </header>
+    <main>
+        <section class="content">
+            <div class="course-work">
+                <h2>Course Work</h2>
+                <ul>
+                    <li>Course 1</li>
+                    <li>Course 2</li>
+                </ul>
+            </div>
+            <div class="location">
+                <h2>Lagos, Nigeria</h2>
+                <div class="img-container">
+                    <img class="lagos-img" src="./images/lagos.jpeg" alt="street of lagos">
+                </div>
+                <p>Ikeja</p>
+            </div>
+        </section>
+        <section class="certificate">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="buttons">
+                <button class="btn"  onclick="filterCourses('all')">All</button>
+                <button class="btn" onclick="filterCourses('CSE')">CSE</button>
+                <button class="btn" onclick="filterCourses('WDD')">WDD</button>
+            </div>
+            <div class="courses">
+                <button class="course CSE">CSE 110</button>
+                <button class="course WDD">WDD 130</button>
+                <button class="course CSE">CSE 111</button>
+                <button class="course CSE">CSE 210</button>
+                <button class="course WDD">WDD 131</button>
+                <button class="course WDD">WDD 231</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©2025 ♠️ Nnatuanya Frank Lagos, Nigeria</p>
+        <p>Last Update: <span id="dateTimeDisplay"></span></p>
+    </footer>
+    <script src="./scripts/scripts.js"></script>
+</body>
+</html>

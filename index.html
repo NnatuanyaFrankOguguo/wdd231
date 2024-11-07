@@ -6,6 +6,7 @@
     <title>Profile Page</title>
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/scripts.js" defer></script>
 </head>
 <body>
     <header>
@@ -50,20 +51,16 @@
                 <button class="btn" onclick="filterCourses('CSE')">CSE</button>
                 <button class="btn" onclick="filterCourses('WDD')">WDD</button>
             </div>
-            <div class="courses">
-                <button class="course CSE">CSE 110</button>
-                <button class="course WDD">WDD 130</button>
-                <button class="course CSE">CSE 111</button>
-                <button class="course CSE">CSE 210</button>
-                <button class="course WDD">WDD 131</button>
-                <button class="course WDD">WDD 231</button>
+            <div class="courses" id="coursesContainer">
+                <!-- Course cards will be dynamically inserted here -->
             </div>
+            <div id="totalCredits">Total Credits: 0</div>
         </section>
     </main>
     <footer>
         <p>©2025 ♠️ Nnatuanya Frank Lagos, Nigeria</p>
-        <p>Last Update: <span id="dateTimeDisplay"></span></p>
+        <p>Last Update: <span id="lastModified"></span></p>
     </footer>
-    <script src="./scripts/scripts.js"></script>
+    
 </body>
 </html>

@@ -157,14 +157,16 @@ main {
 }
 
 
-.courses {
+ .courses {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
     
     
 }
 
+/*
 .course {
     background-color: #2c4b67;
     color: #f4f4f7;
@@ -173,6 +175,30 @@ main {
     border: none;
     cursor: pointer;
 
+} */
+
+.course-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Styling for completed and incomplete courses */
+.completed {
+    background-color: #e0ffe0;
+    color: #2d7b2d;
+    font-weight: bold;
+}
+
+.incomplete {
+    background-color: #ffe0e0;
+    color: #7b2d2d;
+}
+
+#totalCredits {
+    margin-top: 20px;
+    font-size: 18px;
 }
 
 footer {

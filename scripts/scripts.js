@@ -122,7 +122,10 @@ function filterCourses(category) {
 // Initialize the page with all courses displayed
 renderCourses();
 
-
+function getCurrentYear() {
+    const now = new Date();
+    return now.getFullYear(); 
+}
 
 
 function getCurrentDateTime() {
@@ -148,6 +151,7 @@ function getCurrentDateTime() {
 
 function updateDateTime() {
     document.getElementById('lastModified').textContent = getCurrentDateTime();
+    document.getElementById('year').textContent = getCurrentYear();
 }
 
 // Update date and time every second

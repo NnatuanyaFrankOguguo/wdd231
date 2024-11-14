@@ -1,0 +1,33 @@
+#cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap:1rem ;
+    padding: 1rem;
+}
+
+.cards-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: -10px;
+    background-color: bisque;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.cards-content img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cards-content h1{
+    margin-bottom: 5px;
+    color: rgb(61, 62, 62);
+}
+
+.cards-content p{
+    margin-bottom: 5px;
+}

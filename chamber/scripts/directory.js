@@ -152,7 +152,7 @@ function updateDateTime() {
 }
 
 // Update date and time every second
-// setInterval(updateDateTime, 1000);
+setInterval(updateDateTime, 1000);
 
 // Initial call to display the current date and time immediately
 updateDateTime();

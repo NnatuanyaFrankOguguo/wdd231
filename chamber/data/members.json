@@ -1,0 +1,68 @@
+{
+    "members" : [
+        {
+        "name": "Google LLC",
+        "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043, USA",
+        "phone": "+1-650-253-0000",
+        "website": "https://www.google.com",
+        "image": "images/google.webp",
+        "membership": 3,
+        "description": "Global leader in search engines and online advertising."
+        },
+        {
+        "name": "Microsoft Corporation",
+        "address": "One Microsoft Way, Redmond, WA 98052, USA",
+        "phone": "+1-425-882-8080",
+        "website": "https://www.microsoft.com",
+        "image": "images/microsoft.png",
+        "membership": 3,
+        "description": "Tech giant specializing in software, hardware, and cloud services."
+        },
+        {
+        "name": "Amazon.com, Inc.",
+        "address": "410 Terry Avenue North, Seattle, WA 98109, USA",
+        "phone": "+1-206-266-1000",
+        "website": "https://www.amazon.com",
+        "image": "images/amazon.png",
+        "membership": 3,
+        "description": "World's largest online retailer and cloud service provider."
+        },
+        {
+        "name": "Tesla, Inc.",
+        "address": "3500 Deer Creek Road, Palo Alto, CA 94304, USA",
+        "phone": "+1-650-681-5000",
+        "website": "https://www.tesla.com",
+        "image": "images/tesla.webp",
+        "membership": 2,
+        "description": "Innovator in electric vehicles and renewable energy solutions."
+        },
+        {
+        "name": "Apple Inc.",
+        "address": "One Apple Park Way, Cupertino, CA 95014, USA",
+        "phone": "+1-408-996-1010",
+        "website": "https://www.apple.com",
+        "image": "images/apple.webp",
+        "membership": 3,
+        "description": "Designer and manufacturer of consumer electronics and software."
+        },
+        {
+        "name": "Facebook, Inc. (Meta)",
+        "address": "1 Hacker Way, Menlo Park, CA 94025, USA",
+        "phone": "+1-650-543-4800",
+        "website": "https://www.meta.com",
+        "image": "images/facebook.webp",
+        "membership": 2,
+        "description": "Social media and technology company connecting people worldwide."
+        },
+        {
+        "name": "IBM Corporation",
+        "address": "1 New Orchard Road, Armonk, NY 10504, USA",
+        "phone": "+1-914-499-1900",
+        "website": "https://www.ibm.com",
+        "image": "images/ibm.webp",
+        "membership": 1,
+        "description": "Global leader in AI, cloud computing, and enterprise software."
+        }
+    ]
+}
+  

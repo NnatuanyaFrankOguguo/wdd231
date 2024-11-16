@@ -7,16 +7,59 @@
     <meta property="og:title" content="Chambers of Commerce">
     <meta property="og:description" content="A list of major Nigeria Chambers of Commerce">
     <meta property="og:type" content="article" />
-    <meta property="og:image" content="-----">
-    <meta property="og:url" content="-----">
+    <meta property="og:image" content="images/online.png">
+    <meta property="og:url" content="https://nnatuanyafrankoguguo.github.io/wdd231/">
     <meta name="twitter:cards" content="summary_large_image">
     <title>Course Homepage - Nnatuanya Frank</title>
     <meta name="description" content="WDD 231 - Chambers of Commerce - Nnatuanya Frank - Course Home">
     <meta name="author" content="Nnatuanya Frank">
+    <link rel="icon" sizes="any" href="images/favicon (1).ico"/>
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/directory.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
 </head>
+<body>
+    <header class="navbar">
+        <nav class="navbar_container">
+            <div class="logo">
+                <img src="images/online.png" alt="logo">
+                <p>FrankFurt</p>
+            </div>
+            <div class="navbar_toggle" id="mobile_menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_items"><a href="index.html" class="navbar_links">Home</a></li>
+                <li class="navbar_items"><a href="about.html" class="navbar_links">Directory</a></li>
+                <li class="navbar_items"><a href="#" class="navbar_links">Join</a></li>
+                <li class="navbar_items"><a href="contact.html" class="navbar_links">Discover</a></li>
+                
+            </ul>
+        </nav>      
+    </header>
+
+    <main>
+        <div class="intro-base">
+            <h1>Businesses Directories</h1>
+            <div class="display-styles">
+                <button id="grid"><img src="images/dial-pad.png" alt="grid-layout"></button>
+                <button id="list"><img src="images/list-text.png" alt="list-styles"></button>
+            </div>
+        </div>
+        <div id="cards" class="cards-container">
+
+        </div>
+    </main>
+
+    <footer>
+        <p>©<span id="year"></span> ♠️ Nnatuanya Frank Lagos, Nigeria</p>
+        <p>Last Update: <span id="lastModified"></span></p>
+    </footer>
+    
+</body>
+</html>

@@ -36,13 +36,14 @@ const renderCompanyData = (display = "grid") => {
     companyData.forEach(company => {
 
         const companyCard = document.createElement('div');
-        companyCard.classList.add('cards-content');
+        companyCard.classList.add('cards-contents');
 
         if (display === "list") {
             companyCard.style.display = 'flex'; // Set display to flex for list view
             companyCard.style.flexDirection = 'row'; // Align items in a row
             companyCard.style.alignItems = 'center'; // Center items vertically
-
+            companyContainer.classList.remove('cards-container'); // Remove
+          
             const companyName = document.createElement('p');
             companyName.textContent = company.name;
 
@@ -61,7 +62,8 @@ const renderCompanyData = (display = "grid") => {
             companyCard.appendChild(companyPhone);
             companyCard.appendChild(companyLink);
         } else if (display === "grid") {
-            companyCard.style.boxShadow = 'rgba(13, 12, 12, 0.35) 0px 5px 15px;'; // Set display to block for grid 
+            companyCard.style.display = 'grid'; // Set display to block for grid 
+            companyContainer.classList.add('cards-container'); 
             
 
             const companyImage = document.createElement('img');

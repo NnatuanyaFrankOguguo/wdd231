@@ -1,7 +1,7 @@
 :root {
     --primary-color: #053454;
     --secondary-color: #9ea6a2;
-    --text-color: #f8eeee;
+    --text-color: black;
 }
 
 
@@ -168,6 +168,7 @@
         display: table;
         width: 100%;
         padding: 10px 0;
+        color: #053454;
         
         
     }
@@ -243,22 +244,25 @@
     opacity: 0.7;
 }
 
-
-
-#cards.grid-view {
+.cards-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 2.5rem;
-    padding: 2rem 10rem;
+    gap:1rem ;
+    padding: 1rem;
+    padding: 20px 15%;
+}
+
+#cards.grid-view .cards-contents {
     text-align: center;
     align-items: center;
     background: #f1efef;
     border-radius: 8px;
     box-shadow: rgba(13, 12, 12, 0.35) 0px 5px 15px;
+    
 }
 
-#cards.list-view .cards-content {
-    display: flex;
+#cards.list-view .cards-contents {
+    display: flex ;
     flex-direction: row;
     gap: 1.5em;
     padding: 1em;
@@ -268,13 +272,15 @@
     background: #f9f9f9;
     border-radius: 8px;
     text-align: center;
+    box-shadow: rgba(13, 12, 12, 0.35) 0px 5px 15px;
 }
 
 #cards.list-view .cards-content img {
     display: none; /* Hide the image in list view */
 }
 
-.cards-content img{
+.cards-contents img{
+    border-radius: 8px;
     width: 100%;
     height: auto;
 }

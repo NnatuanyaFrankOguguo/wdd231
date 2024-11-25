@@ -101,23 +101,6 @@ document.querySelector("#list").addEventListener("click", () => renderCompanyDat
 
 document.querySelector("#grid").addEventListener("click", () => renderCompanyData("grid"));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // FOOTER DATE JS
 function getCurrentYear() {
     const now = new Date();

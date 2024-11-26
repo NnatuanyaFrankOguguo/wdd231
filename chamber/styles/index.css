@@ -403,7 +403,7 @@
     justify-content: space-around;
     padding: 20px;
     background-color: #333;
-    border: 1px green solid;
+    
 }
 
 .dayForecast {
@@ -427,12 +427,11 @@
 
 
 #cards {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     justify-content: center;
-    padding: 20px;
+    padding: 0 10%;
     gap: 20px;
-    border: 1px green solid;
 }
 
 .cards-container img{
@@ -449,14 +448,13 @@
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     border-radius: 10px;
-    border: 1px solid blue;
 }
 
 
 
 /* footer css */
 .footer {
-    
+    margin-top: 50px;
     text-align: center;
     padding: 2px 15px;
     background-color: var(--primary-color);

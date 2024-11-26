@@ -6,7 +6,7 @@
         "phone": "+1-650-253-0000",
         "website": "https://www.google.com",
         "image": "images/google.webp",
-        "membership": 3,
+        "membership": "gold",
         "description": "Global leader in search engines and online advertising."
         },
         {
@@ -15,7 +15,7 @@
         "phone": "+1-425-882-8080",
         "website": "https://www.microsoft.com",
         "image": "images/microsoft.png",
-        "membership": 3,
+        "membership": "gold",
         "description": "Tech giant specializing in software, hardware, and cloud services."
         },
         {
@@ -24,7 +24,7 @@
         "phone": "+1-206-266-1000",
         "website": "https://www.amazon.com",
         "image": "images/amazon.png",
-        "membership": 3,
+        "membership": "gold",
         "description": "World's largest online retailer and cloud service provider."
         },
         {
@@ -33,7 +33,7 @@
         "phone": "+1-650-681-5000",
         "website": "https://www.tesla.com",
         "image": "images/tesla.webp",
-        "membership": 2,
+        "membership": "silver",
         "description": "Innovator in electric vehicles and renewable energy solutions."
         },
         {
@@ -42,7 +42,7 @@
         "phone": "+1-408-996-1010",
         "website": "https://www.apple.com",
         "image": "images/apple.webp",
-        "membership": 3,
+        "membership": "gold",
         "description": "Designer and manufacturer of consumer electronics and software."
         },
         {
@@ -51,7 +51,7 @@
         "phone": "+1-650-543-4800",
         "website": "https://www.meta.com",
         "image": "images/facebook.webp",
-        "membership": 2,
+        "membership": "silver",
         "description": "Social media and technology company connecting people worldwide."
         },
         {
@@ -60,7 +60,7 @@
         "phone": "+1-914-499-1900",
         "website": "https://www.ibm.com",
         "image": "images/ibm.webp",
-        "membership": 1,
+        "membership": "bronze",
         "description": "Global leader in AI, cloud computing, and enterprise software."
         }
     ]

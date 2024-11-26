@@ -132,12 +132,13 @@
         background: rgba(255, 255, 255, 0.3); /* Semi-transparent background*/
         backdrop-filter: blur(10px); /* Apply blur effect */
         border-radius: 10px; /*Optional: rounded corners*/
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);   
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        color: #1d1b1b;  
 
     }
 
     .navbar_menu a{
-        color: rgb(16, 34, 16);
+        color: #7d0b0b;
     }
 
     .logo{
@@ -158,6 +159,7 @@
     .navbar_items{
         width: 100%;
         margin: -15px 0;
+        color: #7d0b0b;
         
          
     }
@@ -168,6 +170,7 @@
         display: table;
         width: 100%;
         padding: 10px 0;
+        color: #7d0b0b;
     
     }
 
@@ -251,11 +254,12 @@
 .hero-btn{
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color:  #276429;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    color: #ffffff
 }
 
 .hero-btn:hover{
@@ -299,7 +303,7 @@
 }
 
 .section-content > h2{
-    background-color: gray;
+    background-color: rgb(34, 26, 26);
     padding: 10px 15px;
     border-radius: 20px;
     color: aquamarine;
@@ -314,7 +318,7 @@
 .main-section-btn{
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #276429;
     color: white;
     border: none;
     cursor: pointer;
@@ -336,9 +340,10 @@
     flex-wrap: wrap;
     margin: 10px;
     padding: 10px;
-    background-color: #3a6a9b;
+    background-color: #1f4974;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
 }
 
 
@@ -347,7 +352,7 @@
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #333;
+    color: #1d1b1b;
 }
 
 /* Temperature */
@@ -491,7 +496,7 @@
 
 }
 
- .footer-content-center h2, .footer-content-right h2{
+.footer-content-center h2, .footer-content-right h2{
     font-family: "Playfair Display", serif;
     color: white;
     font-weight: 600;

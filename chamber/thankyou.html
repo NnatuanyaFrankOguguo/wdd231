@@ -15,11 +15,11 @@
     <meta name="author" content="Nnatuanya Frank">
     <link rel="icon" sizes="any" href="images/favicon(1).ico">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/thankyou.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script src="scripts/index.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
 </head>
 <body>
     <header class="navbar">
@@ -43,57 +43,28 @@
         </nav>      
     </header>
 
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Discover the world of Chambers of Commerce</h1>
-                <p>International's leading NGOs, Software companies, and multinational corporations are here to help you navigate the complex landscape of the Chambers of Commerce.</p>
-                <a href="#" class="hero-btn">Get started</a>
-            </div>
-            <div class="hero-image">
-                <img src="images/hero.webp" alt="Chambers of Commerce"/>
-            </div>
-        </section>
+    <main class="main">
+        <h1>Thank you for your submission!</h1>
 
-        <div class="space">
-
+        <div id="user-details">
+            <h2><span id="firstname"></span> <span id="lastname"></span></h2>
+            <p>Organisation: <span id="orgname"></span></p>
+            <p>Email: <span id="email"></span></p>
+            <p>Phone: <span id="phone"></span></p>
+            <p>Business: <span id="business"></span></p>
+            <p>Description: <span id="description"></span></p>
+            <p>Membership: <span id="membership"></span></p>
+            <p>Timestamp: <span id="timestamps"></span></p>
+           
         </div>
 
-        <section class="main-section">
-            <div class="section-content intro">
-                <h2>Chambers of Commerce</h2>
-                <p>Chambers of Commerce are NGOs, software companies, and multinational corporations that serve as hubs for trade, development, and investment in the Nigerian economy.</p>
-                <a href="directory.html" class="main-section-btn">Learn more</a>
-            </div>
+        <p>Your information has been successfully submitted. We will review it and get back to you shortly.</p>
 
-            <div class="section-content">
-                <h2>Current Weather</h2>
-                <div id="weather-card">
-
-                </div>
-            </div>
-
-        </section>
-    
-        <div class="forecast-container">
-            <h2>Whether Forecast</h2>
-            <div id="forecast">
-
-            </div>
-        </div>
-        
-        <section class="company-details">
-            <h2>Top Chambers of Commerce</h2>
-            <div class="companies">
-                
-                <div id="cards" class="cards-container">
-
-                </div>
-            </div>
-        </section>
+        <a href="index.html"><button type="button">Back to Home</button></a>
     </main>
 
-    
+
+
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-content-left">

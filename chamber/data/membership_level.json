@@ -1,0 +1,36 @@
+{
+    "membership_level": {
+
+  "non-profit": {
+    "title": "Non-profit Benefits",
+    "benefits": [
+      "Regular Service"
+    ]
+  },
+  "bronze": {
+    "title": "Bronze Membership Benefits",
+    "benefits": [
+      "Access to exclusive content",
+      "Participation in community events",
+      "Basic customer support"
+    ]
+  },
+  "silver": {
+    "title": "Silver Membership Benefits",
+    "benefits": [
+      "Everything in Silver",
+      "Free training sessions",
+      "Discounts on event tickets"
+    ]
+  },
+  "gold": {
+    "title": "Gold Membership Benefits",
+    "benefits": [
+      "Everything in Gold",
+      "Priority customer support",
+      "Advertising opportunities"
+    ]
+  }
+
+    }
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta property="og:title" content="Chambers of Commerce">
+    <meta property="og:description" content="A list of major Nigeria Chambers of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://nnatuanyafrankoguguo.github.io/wdd231/chamber/images/online.png">
+    <meta property="og:url" content="https://nnatuanyafrankoguguo.github.io/wdd231/chamber/join.html">
+    <meta name="twitter:cards" content="summary_large_image">
+    <title>Course Homepage - Nnatuanya Frank</title>
+    <meta name="description" content="WDD 231 - Chambers of Commerce - Nnatuanya Frank - Course Home">
+    <meta name="author" content="Nnatuanya Frank">
+    <link rel="icon" sizes="any" href="images/favicon(1).ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="scripts/join.js" defer></script>
+</head>
+<body>
+    <header class="navbar">
+        <nav class="navbar_container">
+            <div class="logo">
+                <img src="images/online.png" alt="logo">
+                <p>FrankFurt</p>
+            </div>
+            <div class="navbar_toggle" id="mobile_menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_items"><a href="index.html" class="navbar_links">Home</a></li>
+                <li class="navbar_items"><a href="directory.html" class="navbar_links">Directory</a></li>
+                <li class="navbar_items"><a href="join.html" class="navbar_links">Join</a></li>
+                <li class="navbar_items"><a href="#" class="navbar_links">Discover</a></li>
+                
+            </ul>
+        </nav>      
+    </header>
+
+    <main>
+        <section class="join-intro">
+            <h1>Join the FrankFurt Chambers of Commerce</h1>
+            <p>Join the FrankFurt Chambers of Commerce today and access exclusive content, opportunities, and support. We are excited to have you on board!</p>
+            <p>We are looking forward to welcoming you to our growing network of Nigeria Chambers of Commerce. Please fill out the form below to join us.</p>
+        </section>
+
+        
+    
+        <section class="join-form-container">
+            <form method="GET" action="thankyou.html">
+                <div class="">
+                    <div>
+                        <label for="firstname" title="last name">First Name</label>
+                        <input type="text" id="firstname" name="firstname" autocomplete="first-name" required> 
+                    </div>
+                    
+                    <div>
+                        <label for="lastname" title="last name">Last Name</label>
+                        <input type="text" id="lastname" name="lastname" autocomplete="last-name" required> 
+                    </div>
+                    
+                    <div>
+                        <label for="orgname" title="Organisational title">Organisational title</label>
+                        <input type="text" id="orgname" name="orgname" autocomplete="organization-title" required> 
+                    </div>
+
+                    <div>
+                        <label for="email" title="Please enter a valid email address">Email Address</label>
+                        <input type="email" id="email" name="email" autocapitalize="email" required placeholder="abc@gmail.com"> 
+                    </div>
+                </div>
+
+                <div class="">
+                    <div>
+                        <label for="phone">Mobile Phone</label>
+                        <input type="tel" id="phone" name="phone" autocomplete="phone" required placeholder="+1"> 
+                    </div>
+
+                    <div>
+                        <label for="business">Business name</label>
+                        <input type="text" id="business" name="business" autocomplete="organization" required > 
+                    </div>
+
+                    <div>
+                        <label for="options" title="Select an option">Select an Option</label>
+                        <select id="options" name="options" required>
+                            <option value="" disabled selected> Choose one</option>
+                            <option value="non-profit"> Non profit Membership</option>
+                            <option value="Bronze"> Bronze Membership</option>
+                            <option value="Bronze"> Silver Membership</option>
+                            <option value="Bronze"> Gold Membership</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="description" title="Write your description">Description: </label>
+                        <textarea id="description" name="description" rows="5" placeholder="Type your message here" required></textarea>
+                    </div>
+
+                    <!-- timestamps -->
+                    <input type="hidden" name="timestamps" id="timestamps" value="">
+
+                    <input type="submit" value="Apply for membership">
+                </div>
+
+                
+
+            </form>
+
+            
+            <section class="membership-levels">
+
+                <div class="membership-cards">
+                    <div class="card" id="non-profit-card">
+                        <h3>Non-Profit Membership</h3>
+                        <p>Price: $0</p>
+                        <button onclick="fetchModalData('non-profit')">Learn More</button>
+                    </div>
+
+                    <div class="card" id="bronze-card">
+                        <h3>Bronze Membership</h3>
+                        <p>Price: $100</p>
+                        <button onclick="fetchModalData('bronze')">Learn More</button>
+                    </div>
+
+                    <div class="card" id="silver-card">
+                        <h3>Silver Membership</h3>
+                        <p>Price: $200</p>
+                        <button onclick="fetchModalData('silver')">Learn More</button>
+                    </div>
+
+                    <div class="card" id="gold-card">
+                        <h3>Gold Membership</h3>
+                        <p>Price: $300</p>
+                        <button onclick="fetchModalData('gold')">Learn More</button>
+                    </div>
+                </div>
+            </section>
+
+                
+            
+
+
+        </section>
+
+        <!-- Modals being fetch dynamically -->
+        <div class="modal" id="dynamic-modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('dynamic-modal')">❌</span>
+                <h3 id="modal-title"></h3>
+                <ul id="modal-benefits"></ul>
+            </div>
+        </div>
+        
+    
+    </main>
+
+   
+    
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-content-left">
+                <img src="images/online.png" alt="logo"/>
+                <p>Chambers of Commerce Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, vitae!</p>
+                <div class="footer-social-icons">
+                    <a href="#"><img src="images/facebook.png" alt="Facebook"/></a>
+                    <a href="#"><img src="images/whatsapp.png" alt="Twitter"/></a>
+                    <a href="#"><img src="images/instagram.png" alt="Instagram"/></a>
+                    <a href="#"><img src="images/tiktok.png" alt="tiktok"/></a>
+                </div>
+            </div>
+
+            <div class="footer-content-center">
+                <h2>COMPANY</h2>
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Directory</li>
+                    <li>Join</li>
+                </ul>
+            </div>
+
+            <div class="footer-content-right">
+                <h2>GET IN TOUCH</h2>
+                <ul>
+                    <li>+234 (0)70 7001 8654</li>
+                    <li>contact@mychambers.com</li>
+                </ul>
+            </div>
+
+        </div>
+        <hr/>
+        <div class="date">
+            <p>©<span id="year"></span> ♠️ Nnatuanya Frank Lagos, Nigeria</p>
+            <p>Last Update: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+    
+</body>
+</html>

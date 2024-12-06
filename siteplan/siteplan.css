@@ -1,0 +1,32 @@
+ /* Selected Color Schema */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333333; /* Dark gray text */
+}
+header {
+    background-color: #1e2022; /* Blue accent for headers */
+    color: white;
+    padding: 10px;
+}
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif; /* Roboto for headings */
+}
+section {
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+section img {
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}

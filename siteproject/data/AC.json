@@ -1,0 +1,41 @@
+{
+    "airConditioningSystems": [
+      {
+        "id": 1,
+        "name": "Central Air Conditioning System",
+        "description": "Provides cooling for large spaces and is ideal for homes or offices with ductwork.",
+        "image": "images/central_AC.webp"
+      },
+      {
+        "id": 2,
+        "name": "Ductless Mini-Split System",
+        "description": "A versatile system for homes without ductwork, allowing for individual room cooling.",
+        "image": "images/ductless_mini.webp"
+      },
+      {
+        "id": 3,
+        "name": "Window Air Conditioner",
+        "description": "A compact unit designed to cool a single room by being installed in a window.",
+        "image": "images/window.webp"
+      },
+      {
+        "id": 4,
+        "name": "Portable Air Conditioner",
+        "description": "A mobile solution for cooling small areas, often requiring a window vent kit.",
+        "image": "images/portable.webp"
+      },
+      {
+        "id": 5,
+        "name": "Hybrid Air Conditioner",
+        "description": "Combines an electric air conditioner with a gas furnace for energy efficiency.",
+        "image": "images/hybrid.webp"
+      },
+      {
+        "id": 7,
+        "name": "Smart Air Conditioner",
+        "description": "A Wi-Fi-enabled system that can be controlled remotely via a smartphone app.",
+        "image": "images/smart_again.webp"
+      }
+    ]
+  }
+  

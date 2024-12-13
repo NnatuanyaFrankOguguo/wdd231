@@ -7,3 +7,13 @@ export const responsiveNavbar = () => {
     menuList.classList.toggle('hide-mobile-menu');
 });
 }
+
+
+// FOOTER DATE JS
+export const getCurrentYear = () => {
+    const now = new Date();
+    return now.getFullYear(); 
+}
+
+
+

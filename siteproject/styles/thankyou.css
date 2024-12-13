@@ -1,0 +1,81 @@
+/* Main styles for thankyou.html */
+.main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.main h1 {
+    color: #333;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#user-details {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#user-details h2 {
+    color: #444;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+#user-details p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #666;
+}
+
+#user-details span {
+    font-weight: 600;
+    color: #333;
+}
+
+.main > p {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+
+button{
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color:  #276429;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color: #ffffff
+}
+
+
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+    .main {
+        padding: 1rem;
+    }
+
+    .main h1 {
+        font-size: 2rem;
+    }
+
+    #user-details h2 {
+        font-size: 1.5rem;
+    }
+
+    #user-details p {
+        font-size: 0.9rem;
+    }
+}

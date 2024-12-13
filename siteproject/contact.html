@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta property="og:title" content="S A Dairo Cooling & Electrical Services">
+    <meta property="og:description" content="Air Conditioning Services">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://nnatuanyafrankoguguo.github.io/wdd231/chamber/images/online.png">
+    <meta property="og:url" content="https://nnatuanyafrankoguguo.github.io/wdd231/chamber/index.html">
+    <meta name="twitter:cards" content="summary_large_image">
+    <title> Contact S A Dairo Cooling & Electrical Services</title>
+    <meta name="description" content="WDD 231 - Chambers of Commerce - Nnatuanya Frank - Course Home">
+    <meta name="author" content="Nnatuanya Frank">
+    <link rel="icon" href="./images/wrench.png"  type="image/png">
+    <link rel="stylesheet" href="styles/normalise.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script type="module" src="scripts/contact.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="maincontainer">
+            <div class="logos">
+                <img src="./images/wrench.png" alt="logo" class="logoss">
+                <span>S A Dairo Cooling Services</span>
+            </div>
+            <ul class="" id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><button class="btn"><a href="contact.html">Book now</a></button></li>
+            </ul>
+            <img src="./images/menu.png" alt="" class="menu-icon">
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="body">
+            <div class="container">
+                <!-- Booking Form Section -->
+                <div class="booking-section">
+                    <h1>Book AC Technician Service</h1>
+                    <form method="GET" action="thankyou.html">
+                        <div class="name-group">
+                            <div class="form-group">
+                                <label for="firstname" title="last name">First Name</label>
+                                <input type="text" id="firstname" name="firstname" autocomplete="given-name"  required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastname" title="lastname"> Last Name</label>
+                                <input type="text" id="lastname" name="lastname" autocomplete="family-name" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" title="email">Email Address</label>
+                            <input type="email" id="email" name="email" autocomplete="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="options" title="Select an option">Service Type</label>
+                            <select  id="options" name="options" required>
+                                <option value="" disabled selected> Choose one</option>
+                                <option value="AC repair">AC Repair</option>
+                                <option value="Ac installation">AC Installation</option>
+                                <option value="Ac maintenance">AC Maintenance</option>
+                                <option value="Emergency Service">Emergency Service</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="date">Preferred Date</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address" title="address">Full Home Address</label>
+                            <input type="text" id="address" name="address" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="description" title="Write your description">Additional Notes</label>
+                            <textarea id="description" name="description" rows="4" placeholder="Describe your AC issue or service requirement"></textarea>
+                        </div>
+
+                        <!-- timestamps -->
+                    <input type="hidden" name="timestamps" id="timestamps" value="">
+                        
+                        <button type="submit" class="submit-btn">
+                            Schedule Service
+                        </button>
+                    </form>
+                </div>
+                
+                <!-- Sidebar Section -->
+                <div class="sidebar">
+                    <div class="sidebar-card">
+                        <h2>Why Choose Us?</h2>
+                        <ul class="feature-list">
+                            <li>
+                                <span class="icon">✔</span>
+                                24/7 Emergency Service
+                            </li>
+                            <li>
+                                <span class="icon">✔</span>
+                                Certified Technicians
+                            </li>
+                            <li>
+                                <span class="icon">✔</span>
+                                Affordable Pricing
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="sidebar-card">
+                        <h2>Quick Contact</h2>
+                        <div class="contact-info">
+                            <p>
+                                <span class="icon">📞</span>
+                                +234 (0)70 7001 8654
+                            </p>
+                            <p>
+                                <span class="icon">✉</span>
+                                support@@SADairoCoolingServices.com
+                            </p>
+                            <p>
+                                <span class="icon">📍</span>
+                                ikeja highway, GRA City, Lagos State
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-content-left">
+                <div class="logos">
+                    <img src="./images/wrench.png" alt="logo" class="logoss">
+                    <span>S A Dairo Cooling Services</span>
+                </div>
+                <p>Keeping Lagos cool since 2005. S A Dairo Cooling Services is your trusted partner for all air conditioning and electrical needs. We pride ourselves on prompt service, expert technicians, and customer satisfaction.</p>
+                <div class="footer-social-icons">
+                    <a href="#"><img src="images/facebook.png" alt="Facebook"/></a>
+                    <a href="#"><img src="images/whatsapp.png" alt="Twitter"/></a>
+                    <a href="#"><img src="images/instagram.png" alt="Instagram"/></a>
+                    <a href="#"><img src="images/tiktok.png" alt="tiktok"/></a>
+                </div>
+            </div>
+
+            <div class="footer-content-center">
+                <h2>COMPANY</h2>
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Directory</li>
+                    <li>Join</li>
+                </ul>
+            </div>
+
+            <div class="footer-content-right">
+                <h2>GET IN TOUCH</h2>
+                <ul>
+                    <li>+234 (0)70 7001 8654</li>
+                    <li>contact@S A Dairo Cooling Services.com</li>
+                </ul>
+            </div>
+
+        </div>
+        <hr/>
+        <div class="date">
+            <p>©<span id="year"></span> ♠️ S A Dairo Cooling Services Lagos, Nigeria</p>
+        </div>
+    </footer>
+</body>
+</html>

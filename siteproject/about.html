@@ -15,11 +15,11 @@
     <meta name="author" content="Nnatuanya Frank">
     <link rel="icon" href="./images/wrench.png"  type="image/png">
     <link rel="stylesheet" href="styles/normalise.css">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script type="module" src="scripts/index.js" defer></script>
+    <script type="module" src="scripts/about.js" defer></script>
 </head>
 <body>
     <header>
@@ -31,7 +31,7 @@
             <ul class="" id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-
+   
                 <li><button class="btn"><a href="contact.html">Book now</a></button></li>
             </ul>
             <img src="./images/menu.png" alt="" class="menu-icon">
@@ -40,70 +40,88 @@
     </header>
 
     <main>
-        <section class="hero-container">
-            <div class="hero-content">
-                <h1>Chill Out, we've Got You Covered</h1>
-                <p>Fast, reliable AC repair and installation to rescue you from the heat. Trusted AC technicians serving Lagos with precision and care</p>
-                <button class="hero-cta"><a href="contact.html">
-                    Get Started
-                    <span class="arrow">→</span></a>
-                </button>
-                
-            </div> 
-
-            <div className="hero-image">
-                <img src='images/hero_img.webp' class='hero-img' alt="hero" />
+         <!-- Header Section -->
+        <section class="header">
+            <div class="header-content">
+                <h1>Cool Air Tech: Your Comfort, Our Passion</h1>
+                <p>With over 20 years of experience, we're dedicated to providing top-notch air conditioning services that keep you cool and comfortable.</p>
             </div>
-
         </section>
-            <!-- NEXT SECTION -->
-        <section class="company-details">
-            <h2>Area We Serve</h2>
-            <div class="companies">
-                <div id="cards" class="cards-container">
 
+        <!-- Our Story Section -->
+        <div class="container">
+            <section class="our-story">
+                <div class="story-image">
+                    <img src="images/Frank_cool.webp" alt="AC Technician Team">
                 </div>
-                
-            </div>
-            <div class="btn-con">
-                <button class="ac-btn"><a href="contact.html">See more →</a></button>
-                
+                <div class="story-content">
+                    <h2>Our Journey</h2>
+                    <p>Founded in 2005, Cool Air Tech began as a small family-owned business with a simple mission: to provide reliable, high-quality AC services to our community. What started in a small garage has now grown into a trusted local enterprise with a team of certified professionals.</p>
+                    <br>
+                    <p>We believe in transparency, integrity, and customer satisfaction. Every technician is carefully trained, background-checked, and committed to delivering exceptional service that exceeds your expectations.</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- EXPERTISE -->
+
+        <section>
+            <div id="cards" class="cards-container">
+
             </div>
         </section>
 
-        <section class="how-we-work">
-            <!-- Process explanation -->
-            <h2>Our Service Process</h2>
-            <div class="step">
-                <number>1</number>
-                <h3>Contact & Diagnosis</h3>
-                <p>Call or book online, we assess your AC issue</p>
-            </div>
-            <div class="step">
-                <number>2</number>
-                <h3>Expert Solution</h3>
-                <p>Precise repair or installation plan</p>
-            </div>
-            <div class="step">
-                <number>3</number>
-                <h3>Quality Service</h3>
-                <p>Professional, efficient AC solution</p>
+        <!-- Team Section -->
+        <section class="team-section">
+            <div class="container">
+                <h2>Meet Our Experts</h2>
+                <p>Our skilled technicians are the heart of Cool Air Tech, bringing expertise, passion, and dedication to every job.</p>
+                
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="images/profile.png" alt="John Smith">
+                        <h3>John Smith</h3>
+                        <p>Chief Technician</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/woman.png" alt="Emily Rodriguez">
+                        <h3>Emily Rodriguez</h3>
+                        <p>Senior AC Specialist</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/woman.png" alt="Michael Lee">
+                        <h3>Michael Lee</h3>
+                        <p>Installation Expert</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/profile.png" alt="Sarah Johnson">
+                        <h3>Sarah Johnson</h3>
+                        <p>Customer Service Manager</p>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="customer-testimonials">
-            <!-- Social proof -->
-            <h2>What Our Customers Say</h2>
-            <div class="testimonial">
-                <quote>Amazing service! Fixed my AC quickly and professionally.</quote>
-                <name>- John D.</name>
-            </div>
-            <div class="testimonial">
-                <quote>Affordable and reliable. Highly recommended!</quote>
-                <name>- Sarah M.</name>
-            </div>
-        </section>
-            
+        <!-- Our Values Section -->
+        <div class="container">
+            <section class="values-section">
+                <div class="value-card">
+                    <div class="icon">🛠️</div>
+                    <h3>Expertise</h3>
+                    <p>Highly trained technicians with years of experience and continuous professional development.</p>
+                </div>
+                <div class="value-card">
+                    <div class="icon">❤️</div>
+                    <h3>Customer Care</h3>
+                    <p>We treat every customer like family, providing personalized solutions and exceptional support.</p>
+                </div>
+                <div class="value-card">
+                    <div class="icon">🌿</div>
+                    <h3>Sustainability</h3>
+                    <p>Committed to eco-friendly practices and energy-efficient cooling solutions for a greener future.</p>
+                </div>
+            </section>
+        </div>
     </main>
 
     <footer class="footer">

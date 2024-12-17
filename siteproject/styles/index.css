@@ -6,7 +6,7 @@
 }
 
 .hero-content{
-    width: 90%;
+    width: 50%;
     padding: 4rem;
     display: flex;
     flex-direction: column;
@@ -56,7 +56,7 @@
 
 .hero-image {
     width: 50%;
-    border: 1px solid black;
+    
 }
 
 .hero-img{

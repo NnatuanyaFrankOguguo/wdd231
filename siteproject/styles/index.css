@@ -186,7 +186,7 @@
   transform: translateY(-5px);
 }
 
-.step number {
+.step .number {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -232,7 +232,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.testimonial quote {
+.testimonial .quote {
   display: block;
   font-size: 1.1rem;
   color: #333;
@@ -240,7 +240,7 @@
   margin-bottom: 10px;
 }
 
-.testimonial name {
+.testimonial .name {
   display: block;
   font-size: 1rem;
   color: #666;
